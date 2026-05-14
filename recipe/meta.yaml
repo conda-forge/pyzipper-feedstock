@@ -1,5 +1,5 @@
 {% set name = "pyzipper" %}
-{% set version = "0.3.6" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyzipper-{{ version }}.tar.gz
-  sha256: 0adca90a00c36a93fbe49bfa8c5add452bfe4ef85a1b8e3638739dd1c7b26bfc
+  sha256: a4b96afcac04c5589d5abdc6158dd362166374e3cc6810aa441e65f8a17cb9e3
 
 build:
   noarch: python
